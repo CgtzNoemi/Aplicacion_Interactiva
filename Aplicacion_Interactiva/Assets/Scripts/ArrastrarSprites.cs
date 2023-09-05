@@ -13,7 +13,7 @@ public class ArrastarSprites : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnDrag");
+        //Debug.Log("OnDrag");
         transform.position = eventData.position;
     }
 
